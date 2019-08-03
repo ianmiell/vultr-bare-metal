@@ -2,7 +2,7 @@ variable "token" {}
 
 variable "vultr_bm_region" {
   description = "Bare metal region"
-  default     = 2
+  default     = 5
 }
 
 variable "os_type" {
