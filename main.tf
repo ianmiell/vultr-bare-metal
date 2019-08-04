@@ -5,7 +5,7 @@ provider "vultr" {
 
 resource "vultr_startup_script" "bm_startup" {
     name = "Update password on bm startup"
-    script = "echo root:vultr | /usr/sbin/chpasswd"
+    script = "echo root:vultr0987 | /usr/sbin/chpasswd"
 }
 
 resource "vultr_bare_metal_server" "my_server" {
